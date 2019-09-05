@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continernav{
+    list-style: none;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 5px 0;
+    background-color: white;
+}
+.btn{
+    width: 840px;
+    margin: 0 auto;
+}
+.btn li{
+    display: inline-flex;
+    float: right;
+    margin: 11px;
+}
+a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #3b98e4;
+    border: 1px solid #3b98e4 ;
+
+}
+a:hover{
+    background-color:gray; 
+}
+
+#register{
+    background-color: #349aed;
+    color: white;
+}
+#register:hover{
+    background-color:rgb(107, 162, 207);
+}
+
+#logo{
+    height: 70px;
+    width: 75px;
+  
+    
+
+}
+.coverpic img{
+    width: 60%;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+}
+.profilepic img{
+    border-radius: 50%;
+    width: 150px;
+    margin-top: -100px;
+    margin-left: 50px;
+    border: white solid;
+}
+.contain{
+    position: relative;
+    box-shadow: 1px 1px 1px 1px #efeeee;
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    height: 229px;
+}
+.name{
+    margin: -65px  0  0  210px;
+}
+.name h4{
+    color: rgb(121, 120, 121);
+}
+.btn2{
+    width: 840px;
+    margin: 0 auto;
+
+}
+.btn2 li{
+
+    padding: 10px;
+    list-style: none;
+    float: right;
+    margin: -45px 0 90px 0;
+}
+.separator {
+    width: 75%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #94a1a8;
+}
+#locationpic{
+    width: 20px;
+    height: 20px;
+}
+#userpic{
+    width: 40px;
+    height: 40px;
+}
+.user{
+  color: gray;
+  display: inline-flex;
+}
+.user span{
+    margin: 10px 1px 0 2px;
+}
+#spn1{
+    color: black;
+    font-weight: bold;
+}
+.followersimg{
+    max-width: 50%;
+    margin: 0 0 0 25px;
+}
+.followersimg img{
+    width: 45px;
+    height: 45px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-left: -30px;
+}
+.more{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border: 2px solid white;
+    background: gray;
+    color: white;
+    border-radius: 50%;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    margin-left: -30px;
+    margin-top: -40px;
+    
+}
